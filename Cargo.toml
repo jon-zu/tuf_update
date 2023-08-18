@@ -1,0 +1,16 @@
+[package]
+name = "tuf_update"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.75"
+derive_builder = "0.12.0"
+self-replace = "1.3.5"
+serde = { version = "1.0.183", features = ["derive"] }
+serde_json = "1.0.105"
+snafu = "0.7.5"
+tough = { version = "0.13.0", features = ["http"], path="/home/jonas/Dokumente/projects/tough/tough"}
+url = "2.4.0"

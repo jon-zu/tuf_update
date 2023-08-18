@@ -1,0 +1,5 @@
+/target
+# Directorys used for the integration tests
+/dist
+/out
+/repo
